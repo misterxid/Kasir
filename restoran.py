@@ -4,15 +4,16 @@ def menuutama():
     print 'Nama Konsumen :',n
     print """Masukkan Pilihan
            1. Bayar
-           2. Keluar"""
-           3.'info pembuat'
+           2. info pembuat
+           3. Keluar"""          
     print("")
 
 
 def menuutama1():
     print """Masukkan Pilihan
            1. Bayar
-           2. Keluar"""
+           2. info pembuat
+           3. Keluar"""
     print("")
     
             
@@ -131,7 +132,11 @@ class minuman():
         print '__________________________________+'
         print 'Total Seluruhnya = Rp ',total
         return jmlhpsn1
-
+    
+  def info pembuat():
+    print ("AUTOR : SAFRI")
+    print ("TEAM. : D35TR0Y")
+    if back == "Y":
 
 def back_menu():
     print ('Apakah anda ingin memesan lagi? [Y/N] :')
@@ -143,14 +148,7 @@ def back_menu():
     else:
         print 'Terima Kasih !'
         exit
-
-
-def info_pembuat3():
-    print 'autor   : Safri N.Q'
-    print 'my team : D35TR0Y SQUAD'
-   else:
-    print 'Terima kasih !!'
-    exit
+       
     
 def pilihan():
     
@@ -166,6 +164,7 @@ def pilihan():
                        4. SOTO MIE
                        5. MIE AYAM
                        6. Minuman"""
+                       
         pil = int (input('Masukkan pilihan anda : '))
         print
         if pil == 1:
@@ -199,6 +198,9 @@ def pilihan():
             print
             pil=6
             
+
+           
+               
                                     
 
 
