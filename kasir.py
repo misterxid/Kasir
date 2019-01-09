@@ -1,9 +1,4 @@
 def menu ():
-print ("===================")
-print (" autor : Safri N.Q")
-print ("===================")
-print ("Whastapp: 083851312460")
-print ("=======================")
 print (“—– MENU —–“)
 print (“1. KASIR”)
 print (“2. KALKULATOR”)
