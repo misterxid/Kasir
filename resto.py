@@ -141,6 +141,9 @@ def back_menu():
         print("")
     else:
         print 'Terima Kasih !'
+        print 'semoga Bermanfaat !'
+        print 'Autor : Safri!'
+        print 'Team  : Jatim Blackhat'
         exit
 
 
@@ -207,7 +210,7 @@ def pilihan():
         print
         if pil == 1:
             print ("")
-            z = input ('Jumlah gelas : ')
+            z = input ('Jumlah gelas bro : ')
             mn.airmineral(z)
             pil=6
             back_menu()
