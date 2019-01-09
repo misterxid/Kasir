@@ -5,7 +5,7 @@ def menuutama():
     print """Masukkan Pilihan
            1. Bayar
            2. Keluar"""
-           3. info pembuat
+           3.'info pembuat'
     print("")
 
 
