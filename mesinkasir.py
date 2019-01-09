@@ -1,6 +1,10 @@
 def menuutama():
     print("")
-    print ("Autor by Mr_XiD")
+    print ("____________________________________")
+    print ("Autor by : MR_XiD")
+    print ("Ini Hanyalah rekayasa mesin kasir")
+    print ("gunakan dengan bijak")
+    print ("____________________________________")
     n = raw_input('masukkan nama Konsumen: ')
     print 'Nama Konsumen :',n
     print """Masukkan Pilihan
@@ -144,7 +148,6 @@ def back_menu():
         print 'Terima Kasih !'
         print 'semoga Bermanfaat !'
         print 'Autor : MR_XiD'
-        print 'Team  : Jatim Blackhat'
         exit
 
 
